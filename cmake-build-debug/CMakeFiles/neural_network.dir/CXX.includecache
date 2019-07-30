@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/TristanXia/CLionProjects/neural network/Neuron.h
+vector
+-
+cmath
+-
+
+C:/Users/TristanXia/CLionProjects/neural network/main.cpp
+iostream
+-
+Neuron.h
+C:/Users/TristanXia/CLionProjects/neural network/Neuron.h
+neuralNetwork.h
+C:/Users/TristanXia/CLionProjects/neural network/neuralNetwork.h
+
+C:/Users/TristanXia/CLionProjects/neural network/neuralNetwork.h
+Neuron.h
+C:/Users/TristanXia/CLionProjects/neural network/Neuron.h
+vector
+-
+random
+-
+algorithm
+-
+cmath
+-
+
